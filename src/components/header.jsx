@@ -3,12 +3,17 @@ import { ShoppingCart, Search, Menu, Heart } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="bg-gray-800 border-b border-gray-700 px-20 py-8 flex items-center justify-between">
+    <header className="bg-gray-800 border-b border-gray-700 px-20 py-2 flex items-center justify-between">
       <div className="flex items-center space-x-2">
-        <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
-          <span className="text-white font-bold">🌿</span>
-        </div>
-        <span className="text-xl font-bold text-white">Planto.</span>
+        <img
+          className="w-24 rounded-full flex items-center justify-center"
+          src={require("../assets/logo.png")}
+          alt=""
+        />{" "}
+        <span className="text-xl font-bold text-white">A.</span>
+        <span className="text-xl font-bold text-sky-400">N.</span>
+        <span className="text-xl font-bold text-pink-400">A.</span>
+        <span className="text-xl font-bold text-green-400">A</span>
       </div>
 
       <nav className="hidden md:flex space-x-24">
@@ -30,10 +35,13 @@ const Header = () => {
       </nav>
 
       <div className="flex items-center space-x-4">
-        <Search className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
-        <Heart className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
-        <ShoppingCart className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
-        <Menu className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer md:hidden" />
+        <a href="https://www.facebook.com/people/Association-Nationale-Autisme-Algerie/100064727017151/">
+          <img
+            src={require("../assets/facebook.png")}
+            className="w-16"
+            alt="facebook"
+          />
+        </a>
       </div>
     </header>
   );

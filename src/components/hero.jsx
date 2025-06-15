@@ -5,8 +5,9 @@ const Hero = () => {
     <section className="relative bg-gradient-to-br from-gray-800 to-gray-900 py-20 px-20 flex">
       <div className="w-3/5">
         <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-          Association National{" "}
-          <span className="text-green-400">Autiste Algérie</span>
+          Association <span className="text-sky-400">National </span>
+          <span className="text-pink-400">Autiste </span>
+          <span className="text-green-400">Algérie</span>
         </h1>
         <p className="text-xl text-gray-300 mb-8 leading-relaxed">
           L’Association Nationale des Troubles du Spectre de l’Autisme en
@@ -34,11 +35,8 @@ const Hero = () => {
           noblesse de leur mission.{" "}
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-            Explore Now
-          </button>
           <button className="border border-green-500 text-green-400 hover:bg-green-500 hover:text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-            Learn More
+            Savoir plus{" "}
           </button>
         </div>
       </div>
@@ -47,9 +45,10 @@ const Hero = () => {
         <img src={require("../assets/cover.png")} alt="" />
         <div className="bg-gray-600 rounded-xl p-4 mb-4 w-full">
           <h3 className="text-xl font-bold mb-2">
-            <span className="text-green-400">Ensemble</span> pour un monde qui
+            <span className="text-sky-400">Ensemble</span> pour un monde qui
             <span className="text-green-400"> Comprend</span> et{" "}
-            <span className="text-green-400">Inclut l'Autisme</span>{" "}
+            <span className="text-green-400">Inclut</span>{" "}
+            <span className="text-pink-400">l'Autisme</span>{" "}
           </h3>
         </div>
       </div>

@@ -3,29 +3,29 @@ import { Phone, Mail, MapPin } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-gray-800 border-t border-gray-700 py-12">
-      <div className="container mx-auto px-4">
+      <div className="container mx-16 px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold">🌿</span>
-              </div>
-              <span className="text-xl font-bold">Planto.</span>
+              <img
+                className="w-24 rounded-full flex items-center justify-center"
+                src={require("../assets/logo.png")}
+                alt=""
+              />{" "}
+              <span className="text-xl font-bold">A.N.A.A</span>
             </div>
             <p className="text-gray-400 mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <div className="flex space-x-4">
-              <span className="text-2xl cursor-pointer hover:text-green-400">
-                📘
-              </span>
-              <span className="text-2xl cursor-pointer hover:text-green-400">
-                🐦
-              </span>
-              <span className="text-2xl cursor-pointer hover:text-green-400">
-                📷
-              </span>
+              <a href="https://www.facebook.com/people/Association-Nationale-Autisme-Algerie/100064727017151/">
+                <img
+                  src={require("../assets/facebook.png")}
+                  className="w-16"
+                  alt="facebook"
+                />
+              </a>
             </div>
           </div>
 
@@ -94,7 +94,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Planto. All rights reserved.</p>
+          <p>&copy; 225 ANAA. All rights reserved.</p>
         </div>
       </div>
     </footer>
