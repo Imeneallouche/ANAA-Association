@@ -1,6 +1,3 @@
-import React from "react";
-import { ShoppingCart, Search, Menu, Heart } from "lucide-react";
-
 const Header = () => {
   return (
     <header className="bg-gray-800 border-b border-gray-700 px-20 py-2 flex items-center justify-between">

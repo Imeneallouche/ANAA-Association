@@ -1,4 +1,3 @@
-import React from "react";
 import { ObjectivesData } from "../data/ObjectivesData";
 
 const Objectives = () => {

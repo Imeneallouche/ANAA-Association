@@ -1,12 +1,10 @@
-import React from "react";
-
 const Hero = () => {
   return (
     <section className="relative bg-gradient-to-br from-gray-800 to-gray-900 py-20 px-20 flex">
       <div className="w-3/5">
         <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
           Association <span className="text-sky-400">National </span>
-          <span className="text-pink-400">Autiste </span>
+          <span className="text-pink-400">Autisme </span>
           <span className="text-green-400">Algérie</span>
         </h1>
         <p className="text-xl text-gray-300 mb-8 leading-relaxed">
